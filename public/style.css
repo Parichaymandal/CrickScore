@@ -1,0 +1,680 @@
+/*admin*/
+#sociallogo{
+	position:absolute;
+	right:4px;
+	top:501px;
+}
+
+#socialicon{position:absolute;top:490px;right:2px;}
+#socialicon li{display:inline-block;}
+#socialicon li:first-child{border:none;}
+#socialicon li a{ padding:6px 20px;}
+#admin_inup{
+	position:absolute;
+	left:200px;
+	top:372px;
+}
+
+#inup {
+    position: relative;
+    display: inline-block;
+	cursor:pointer;
+	font-family:Monoglyceride;
+	font-size: 21px;
+	color:black;
+	text-shadow:1px 1px 1px blue;
+	padding-right: 35px; 
+}
+
+#inup_content {
+    display: none;
+    position: absolute;
+	left:0;
+	background-color:white;
+	color:black;
+    min-width: 160px;
+	box-shadow: 5px 5px 5px rgba(20,25,50,0.2);
+	
+}
+
+#inup_content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+	padding: 15px 10px;
+	font-family:Monoglyceride;
+	font-size: 15px;
+	text-shadow: none;
+}
+#inup_content a:hover{
+	background-color:#9893C6;
+	text-shadow:1px 1px 1px blue;
+	
+}
+#inup:hover #inup_content {
+    display: block;
+}
+
+#center{
+	position:absolute;
+	left:150px;
+	right:150px;
+	height:1400px;	
+}
+#admin_setting{
+	position:absolute;
+	right:20px;
+	top:10px;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+	cursor:pointer;
+}
+
+#setting-content {
+    display: none;
+    position: absolute;
+	right:0;
+	background-color:white;
+	color:black;
+    min-width: 160px;
+	box-shadow: 5px 5px 5px rgba(20,25,50,0.2);
+	
+}
+
+#setting-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+	padding: 15px 10px;
+	font-family:Monoglyceride;
+}
+#setting-content a:hover{
+	background-color:#9893C6;
+	
+}
+#dropdown:hover #setting-content {
+    display: block;
+}
+
+#sitename{
+	position:absolute;
+	right:6px;
+	top:410px;
+	font-family:Monoglyceride;
+	font-size:40px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+#admin_welcome{
+	position:absolute;
+	left:250px;
+	top:559px;
+	font-family:Monoglyceride;
+	font-size:40px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+#admin_discrip{
+	position:absolute;
+	left:300px;
+	top:720px;
+	font-family:Monoglyceride;
+	font-size:22px;
+	color:#47539E;
+	
+}
+#admin_discrip ul{
+	list-style-image:url("list.png");
+	
+}
+#admin_discripul{
+	position:absolute;
+	left:200px;
+	top:680px;
+	font-family:Monoglyceride;
+	font-size:25px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+#copywrite{
+	position:absolute;
+	right:10px;
+	top:1330px;
+	font-family:Monoglyceride;
+	font-size:25px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+/*admin profile*/
+#admin_prfileform{
+	position:absolute;
+	left:250px;
+	right:250px;
+	top:10px;
+
+}
+#admin_profname{
+	position:absolute;
+	right:305px;
+	top:-20px;
+	font-family:Monoglyceride;
+	font-size:40px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+#admin_proftips{
+	position:absolute;
+	left:40px;
+	top:90px;
+	font-family:Monoglyceride;
+	font-size:25px;
+	color:black;
+	text-shadow:1px 1px 1px blue;
+}
+#admin_proftable{
+	position:absolute;
+	right:30px;
+	top:170px;
+	width:500px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+#admin_proftable table,th,tr{
+	border:border-collapse;
+	padding:5px 120px 20px 2px;
+}
+#admin_profilelink{
+	position:absolute;
+	left:60px;
+	top:470px;
+	font-family:Monoglyceride;
+	font-size:20px;
+	color:#000066;
+	text-shadow:1px 1px 1px gray;
+}
+#admin_profilelink:hover{
+	text-shadow:1px 1px 1px blue;
+	text-decoration:none;
+}
+#admin_profilebutton{
+	position:absolute;
+	right:60px;
+	top:440px;
+	font-family:Monoglyceride;
+	font-size:20px;
+	color:#000066;
+	text-shadow:1px 1px 1px gray;
+	padding:5px 20px;
+	border:1px solid gray;
+	background-color:#A91E21;
+	border-radius:6px;
+	text-decoration:none;
+}
+#admin_profilebutton:hover{
+	cursor:pointer;
+	background-color:white;
+	text-shadow:2px 2px 2px gray;
+}
+/*adminedit_profile*/
+#adminedit_prof{
+	position:absolute;
+	right:70px;
+	top:200px;
+	width:450px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+#adminedit_proftips{
+	position:absolute;
+	left:40px;
+	top:90px;
+	font-family:Monoglyceride;
+	font-size:25px;
+	color:black;
+	text-shadow:1px 1px 1px blue;
+}
+/*admin login*/
+#login_center{
+	position:absolute;
+	left:250px;
+	right:250px;
+	top:60px;	
+}
+#admin_logname{
+	position:absolute;
+	right:305px;
+	top:-30px;
+	font-family:Monoglyceride;
+	font-size:40px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+#admin_regname{
+	position:absolute;
+	right:220px;
+	top:-30px;
+	font-family:Monoglyceride;
+	font-size:40px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+#admin_worktips{
+	position:absolute;
+	right:110px;
+	top:65px;
+	font-family:Monoglyceride;
+	font-size:30px;
+	color:black;
+	text-shadow:1px 1px 1px blue;
+}
+#reg_worktips{
+	position:absolute;
+	left:50px;
+	top:65px;
+	font-family:Monoglyceride;
+	font-size:30px;
+	color:black;
+	text-shadow:1px 1px 1px blue;
+}
+#reg_log{
+	position:absolute;
+	right:170px;
+	top:100px;
+	padding:5px 20px;
+	border:1px solid gray;
+	background-color:#A91E21;
+	border-radius:6px;
+}
+#reg_log a{
+	font-family:Monoglyceride;
+	font-size:20px;
+	color:white;
+	text-shadow:1px 1px 1px blue;
+	text-decoration:none;
+}
+#reg_log:hover{
+	background-color:white;
+	color:blue;
+}
+#reg_log a:hover{
+	
+	color:blue;
+}
+#login_admin{
+	position:absolute;
+	right:70px;
+	top:205px;
+	width:350px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+#reg_admin{
+	position:absolute;
+	right:70px;
+	top:170px;
+	width:350px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+	border:1px solid #d5d5d5;
+	margin-bottom:6px;
+	border-radius:5px;
+	margin-left:10px;
+	width:225px;
+	padding:5px;
+	box-shadow:1px 1px 1px gray;
+	}
+input[type="submit"],input[type="reset"]{
+	background:#2A3896 none repeat scroll 0 0;
+	border:1px solid #626262;
+	border-radius:3px;
+	color:white;
+	cursor:pointer;
+	font-size:15px;
+	font-weight:bold;
+	padding:2px 5px;
+	}
+input[type="submit"]:hover,input[type="reset"]:hover{
+	background:#9E1B20;
+	}
+/*teamname*/
+#teamlist{
+	position:absolute;
+	left:100px;
+	top:680px;
+	font-family:Monoglyceride;
+	font-size:25px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+#teamname_insert{
+	position:absolute;
+	left:100px;
+	top:750px;
+	width:350px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+/*playername*/
+#playerlist{
+	position:absolute;
+	left:100px;
+	top:750px;
+	width:350px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+	
+}
+/*matchevent*/
+#match_fixture{
+	position:absolute;
+	left:50px;
+	top:700px;
+	width:350px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+#copywrite_matchevent{
+	position:absolute;
+	right:10px;
+	top:1713px;
+	font-family:Monoglyceride;
+	font-size:25px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+#match_current{
+	position:absolute;
+	left:100px;
+	top:930px;
+	top:930px;
+	width:750px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+#match_current table,th{
+	border: 1px dashed #DCDCDC;
+    border-collapse: collapse;
+}
+
+#match_current th, td {
+    padding: 5px;
+    text-align: left;
+}
+#match_current td
+{
+border-right:1px dashed #DCDCDC;
+}
+#teamlist_event{
+	position:absolute;
+	left:50px;
+	top:630px;
+	font-family:Monoglyceride;
+	font-size:25px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+#match_captain{
+	font-family:Monoglyceride;
+	font-size:25px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+#matchevent_run{
+	position:absolute;
+	left:200px;
+	top:1230px;
+	width:550px;
+	height:150px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+
+#matchevent_run  input[type="button"]{
+	padding:10px 15px;
+	cursor:pointer;
+	font-family:Monoglyceride;
+	font-size:20px;
+}
+#matchevent_run  input[type="button"]:hover{
+	background-color:#39439B;
+}
+#matchevent_run  input[type="submit"]{
+	position:absolute;
+	right:33px;
+	bottom:15px;
+}
+
+#matchevent_commentry{
+	position:absolute;
+	left:200px;
+	top:1450px;
+	height:130px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+#matchevent_commentry  input[type="submit"]{
+	position:absolute;
+	right:22px;
+	bottom:5px;
+}
+/*update playerprofile*/
+#playerprofile_update{
+	position:absolute;
+	left:100px;
+	top:750px;
+	width:750px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+
+#playerprofile_update table,th,tr{
+	border:border-collapse;
+	padding:5px 120px 20px 2px;
+	font-family:Monoglyceride;
+	text-shadow:2px 2px 2px gray;
+}
+#copywrite_playerprofile{
+	position:absolute;
+	right:10px;
+	top:1713px;
+	font-family:Monoglyceride;
+	font-size:25px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+/*User*/
+#user_inup{
+	position:absolute;
+	text-decoration: none;
+	left:163px;
+	top:355px;
+}
+
+#user_inup a {
+    position: relative;
+    display: inline-block;
+	cursor:pointer;
+	font-family:Monoglyceride;
+	font-size: 21px;
+	color:black;
+	text-shadow:1px 1px 1px blue;
+	padding: 19px; 
+	text-decoration:none;
+}
+#user_inup a:hover:not(.active){
+	background-color:#9893C6;
+	
+}
+#user_inup a.active{
+	background-color:#2C2882;
+	color:silver;
+}
+/*team_profile*/
+#team_discription{
+	position:absolute;
+	left:100px;
+	top:1200px;
+	width:750px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+ p.team_d{
+	position:absolute;
+	left:100px;
+	top:1140px;
+	font-family:Monoglyceride;
+	font-size:25px;
+	color:black;
+	text-shadow:2px 2px 2px blue;
+}
+/*user_fixture*/
+#team_fixture{
+	position:absolute;
+	left:100px;
+	top:700px;
+	width:750px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+/*user_Score*/
+#score_run{
+	position:absolute;
+	left:100px;
+	top:670px;
+	width:450px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+#score_batt{
+	position:absolute;
+	left:100px;
+	top:850px;
+	width:800px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
+#score_bowl{
+	position:absolute;
+	left:100px;
+	top:1090px;
+	width:800px;
+	background:white none repeat scroll 0 0;
+	border:1px solid #d2d2d2;
+	border-radius:10px;
+	margin:0 auto;
+	font-size:16px;
+	overflow:hidden;
+	padding:20px;
+	box-shadow:2px 2px 2px gray;
+	text-shadow:1px 1px 1px gray;
+}
